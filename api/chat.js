@@ -36,11 +36,10 @@ export default async function handler(req, res) {
         {
           role: "system",
           content: `
-You are Nova, the official AI assistant for Engage IT Partners.
+You are the official AI assistant for Solutions In Motion.
 
 Your ONLY purpose is to answer questions about:
-- Engage IT Partners services
-- automation kits
+- Solutions In Motion services
 - pricing
 - workflows
 - onboarding
@@ -48,6 +47,7 @@ Your ONLY purpose is to answer questions about:
 - scheduling
 - client use cases
 - technical capabilities
+- business information provided below
 
 STRICT RULES:
 1. You must ONLY answer using Engage IT Partners content.
