@@ -1,76 +1,217 @@
 {
-  "about": "Engage IT Partners builds automation systems for real estate professionals, local service providers, and technical teams. We design, deploy, and support automation that eliminates repetitive work and creates seamless client experiences.",
-
-  "differentiators": [
-    "Real-world automation built for small businesses and technical teams",
-    "Clean, maintainable workflows",
-    "Secure architecture with proper frontend/backend separation",
-    "Fast deployment and clear communication",
-    "Systems designed to scale across multiple domains and environments"
-  ],
-
+  "businessName": "Solutions In Motion",
+  "tagline": "Robotic Lawn Mower Consulting, Setup & Support",
+  "about": "Solutions In Motion provides professional consulting, installation, optimization, and ongoing support for robotic lawn mowers. We help homeowners automate their lawn care with reliable, high‑performance robotic mowing systems.",
   "services": {
-    "lead_capture_kit": {
-      "name": "Lead Capture Automation Kit",
-      "features": [
-        "Smart intake forms",
-        "Automated follow-up",
-        "CRM syncing",
-        "Appointment routing"
-      ]
+    "consulting_selection": {
+      "title": "Consulting & Selection",
+      "description": "We evaluate your property and recommend the best robotic mower based on performance, reliability, yard layout, and budget."
     },
-    "scheduling_kit": {
-      "name": "Scheduling Automation Kit",
-      "features": [
-        "Calendar syncing",
-        "Automated reminders",
-        "No-show reduction workflows"
-      ]
+    "professional_installation": {
+      "title": "Professional Installation",
+      "description": "Complete installation including boundary wire layout, charging station placement, zoning, and full system testing."
     },
-    "payment_kit": {
-      "name": "Payment Automation Kit",
-      "features": [
-        "Stripe/Gumroad integration",
-        "Automated invoicing",
-        "Payment confirmation workflows"
-      ]
+    "troubleshooting_repairs": {
+      "title": "Troubleshooting & Repairs",
+      "description": "Fix navigation errors, boundary issues, docking problems, poor coverage, and other mower performance issues."
     },
-    "client_support_bot": {
-      "name": "Client Support Bot Kit",
-      "features": [
-        "AI-powered support",
-        "FAQ automation",
-        "Ticket routing"
-      ]
-    },
-    "ansible_enterprise": {
-      "name": "Enterprise Ansible Automation Kits",
-      "features": [
-        "Infrastructure provisioning",
-        "Configuration management",
-        "Repeatable deployment pipelines"
-      ]
+    "efficiency_optimization": {
+      "title": "Efficiency Optimization",
+      "description": "Schedule tuning, cutting pattern adjustments, zone refinement, and seasonal optimization for maximum performance."
     }
   },
-
-  "pricing": {
-    "starter": "For small teams needing basic automation.",
-    "pro": "For growing teams needing multi-step workflows.",
-    "enterprise": "For technical teams needing full infrastructure automation."
+  "supportedBrands": {
+    "ecovacs_goat": {
+      "title": "Ecovacs GOAT",
+      "description": "Advanced RTK and vision‑based configuration, multi‑zone tuning, and firmware optimization."
+    },
+    "worx_landroid": {
+      "title": "Worx Landroid",
+      "description": "Boundary wire optimization, ACS setup, zone management, and slope tuning."
+    },
+    "all_brands": {
+      "title": "All Brands Supported",
+      "description": "Support for any robotic mower brand including Husqvarna, Segway, Gardena, and more."
+    }
   },
-
-  "onboarding": [
-    "Discovery call",
-    "Workflow mapping",
-    "System setup",
-    "Testing & refinement",
-    "Launch + training"
-  ],
-
-  "support": [
-    "Ongoing maintenance",
-    "Workflow updates",
-    "Technical troubleshooting",
-    "Documentation and training"
-  ]
+  "pricing": {
+    "consultation": {
+      "title": "Consultation",
+      "price": "$99",
+      "details": "On‑site or virtual assessment.",
+      "depositLink": "#stripe"
+    },
+    "installation": {
+      "title": "Installation",
+      "price": "Starting at $399",
+      "details": "Price varies based on yard size.",
+      "depositLink": "#stripe"
+    },
+    "optimization_visit": {
+      "title": "Optimization Visit",
+      "price": "$149 per visit",
+      "details": "Includes performance tuning and adjustments.",
+      "paymentLink": "#stripe"
+    },
+    "payments": {
+      "description": "Secure checkout powered by Stripe. Apple Pay, Google Pay, and major cards supported."
+    }
+  },
+  "supportPlans": {
+    "basic": {
+      "title": "Basic",
+      "price": "$25/month",
+      "features": [
+        "Email support",
+        "Seasonal tuning"
+      ],
+      "subscribeLink": "#stripe"
+    },
+    "premium": {
+      "title": "Premium",
+      "price": "$49/month",
+      "features": [
+        "Priority support",
+        "Remote diagnostics",
+        "Yearly on‑site visit"
+      ],
+      "subscribeLink": "#stripe"
+    },
+    "pro": {
+      "title": "Pro",
+      "price": "$79/month",
+      "features": [
+        "Unlimited support",
+        "Emergency response",
+        "Optimization visits"
+      ],
+      "subscribeLink": "#stripe"
+    }
+  },
+  "contact": {
+    "notes": "Service areas vary. Contact us to confirm availability.",
+    "actions": [
+      "Consultation",
+      "Installation",
+      "Support",
+      "Request Service"
+    ]
+  },
+  "marketing": {
+    "headline": "Automate Your Lawn the Right Way",
+    "subheadline": "Professional setup. Reliable performance. Less work for you.",
+    "cta": "Get Started"
+  },
+  "legal": {
+    "copyright": "© 2026 Solutions In Motion. All rights reserved.",
+    "description": "Robotic lawn mower consulting and support. Independent service provider."
+  }
+}{
+  "businessName": "Solutions In Motion",
+  "tagline": "Robotic Lawn Mower Consulting, Setup & Support",
+  "about": "Solutions In Motion provides professional consulting, installation, optimization, and ongoing support for robotic lawn mowers. We help homeowners automate their lawn care with reliable, high‑performance robotic mowing systems.",
+  "services": {
+    "consulting_selection": {
+      "title": "Consulting & Selection",
+      "description": "We evaluate your property and recommend the best robotic mower based on performance, reliability, yard layout, and budget."
+    },
+    "professional_installation": {
+      "title": "Professional Installation",
+      "description": "Complete installation including boundary wire layout, charging station placement, zoning, and full system testing."
+    },
+    "troubleshooting_repairs": {
+      "title": "Troubleshooting & Repairs",
+      "description": "Fix navigation errors, boundary issues, docking problems, poor coverage, and other mower performance issues."
+    },
+    "efficiency_optimization": {
+      "title": "Efficiency Optimization",
+      "description": "Schedule tuning, cutting pattern adjustments, zone refinement, and seasonal optimization for maximum performance."
+    }
+  },
+  "supportedBrands": {
+    "ecovacs_goat": {
+      "title": "Ecovacs GOAT",
+      "description": "Advanced RTK and vision‑based configuration, multi‑zone tuning, and firmware optimization."
+    },
+    "worx_landroid": {
+      "title": "Worx Landroid",
+      "description": "Boundary wire optimization, ACS setup, zone management, and slope tuning."
+    },
+    "all_brands": {
+      "title": "All Brands Supported",
+      "description": "Support for any robotic mower brand including Husqvarna, Segway, Gardena, and more."
+    }
+  },
+  "pricing": {
+    "consultation": {
+      "title": "Consultation",
+      "price": "$99",
+      "details": "On‑site or virtual assessment.",
+      "depositLink": "#stripe"
+    },
+    "installation": {
+      "title": "Installation",
+      "price": "Starting at $399",
+      "details": "Price varies based on yard size.",
+      "depositLink": "#stripe"
+    },
+    "optimization_visit": {
+      "title": "Optimization Visit",
+      "price": "$149 per visit",
+      "details": "Includes performance tuning and adjustments.",
+      "paymentLink": "#stripe"
+    },
+    "payments": {
+      "description": "Secure checkout powered by Stripe. Apple Pay, Google Pay, and major cards supported."
+    }
+  },
+  "supportPlans": {
+    "basic": {
+      "title": "Basic",
+      "price": "$25/month",
+      "features": [
+        "Email support",
+        "Seasonal tuning"
+      ],
+      "subscribeLink": "#stripe"
+    },
+    "premium": {
+      "title": "Premium",
+      "price": "$49/month",
+      "features": [
+        "Priority support",
+        "Remote diagnostics",
+        "Yearly on‑site visit"
+      ],
+      "subscribeLink": "#stripe"
+    },
+    "pro": {
+      "title": "Pro",
+      "price": "$79/month",
+      "features": [
+        "Unlimited support",
+        "Emergency response",
+        "Optimization visits"
+      ],
+      "subscribeLink": "#stripe"
+    }
+  },
+  "contact": {
+    "notes": "Service areas vary. Contact us to confirm availability.",
+    "actions": [
+      "Consultation",
+      "Installation",
+      "Support",
+      "Request Service"
+    ]
+  },
+  "marketing": {
+    "headline": "Automate Your Lawn the Right Way",
+    "subheadline": "Professional setup. Reliable performance. Less work for you.",
+    "cta": "Get Started"
+  },
+  "legal": {
+    "copyright": "© 2026 Solutions In Motion. All rights reserved.",
+    "description": "Robotic lawn mower consulting and support. Independent service provider."
+  }
 }
