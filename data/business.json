@@ -2,9 +2,6 @@
   "businessName": "Solutions In Motion",
   "tagline": "Robotic Lawn Mower Consulting, Setup & Support",
   "about": "Solutions In Motion provides professional consulting, installation, optimization, and ongoing support for robotic lawn mowers. We help homeowners automate their lawn care with reliable, high‑performance robotic mowing systems.",
-
-  "serviceOverview": "At Solutions In Motion, we offer the following services for robotic lawn mowers:\n\n1. **Consulting & Selection**\n   We evaluate your property and recommend the best robotic mower based on performance, reliability, yard layout, and budget.\n\n2. **Professional Installation**\n   Complete installation including boundary wire layout, charging station placement, zoning, and full system testing.\n\n3. **Troubleshooting & Repairs**\n   We fix navigation errors, boundary issues, docking problems, poor coverage, and other mower performance issues.\n\n4. **Efficiency Optimization**\n   We offer schedule tuning, cutting pattern adjustments, zone refinement, and seasonal optimization for maximum performance.\n\nIf you’d like help choosing the right service, I can guide you.",
-
   "services": {
     "consulting_selection": {
       "title": "Consulting & Selection",
@@ -23,7 +20,6 @@
       "description": "Schedule tuning, cutting pattern adjustments, zone refinement, and seasonal optimization for maximum performance."
     }
   },
-
   "supportedBrands": {
     "ecovacs_goat": {
       "title": "Ecovacs GOAT",
@@ -38,7 +34,6 @@
       "description": "Support for any robotic mower brand including Husqvarna, Segway, Gardena, and more."
     }
   },
-
   "pricing": {
     "consultation": {
       "title": "Consultation",
@@ -62,7 +57,6 @@
       "description": "Secure checkout powered by Stripe. Apple Pay, Google Pay, and major cards supported."
     }
   },
-
   "supportPlans": {
     "basic": {
       "title": "Basic",
@@ -94,7 +88,6 @@
       "subscribeLink": "#stripe"
     }
   },
-
   "contact": {
     "notes": "Service areas vary. Contact us to confirm availability.",
     "actions": [
@@ -104,13 +97,11 @@
       "Request Service"
     ]
   },
-
   "marketing": {
     "headline": "Automate Your Lawn the Right Way",
     "subheadline": "Professional setup. Reliable performance. Less work for you.",
     "cta": "Get Started"
   },
-
   "legal": {
     "copyright": "© 2026 Solutions In Motion. All rights reserved.",
     "description": "Robotic lawn mower consulting and support. Independent service provider."
